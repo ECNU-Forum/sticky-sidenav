@@ -4,9 +4,11 @@
 
 A [Flarum](http://flarum.org) extension. Make the sidenav section sticky and scrollable. Also support hot-discussions widget.
 
-## Scrollbar
+## Motivation
 
 Usually when we make the sidenav section sticky, we have to scroll to the bottom of the page to view the tags that are not shown in the first place. This extension resolves the problem by making the sidenav scrollable.
+
+## Scrollbar
 
 The scrollbar will appear only if there are too many tags AND the mouse is hovering above the sidenav. Example screenshot:
 
