@@ -19,13 +19,13 @@ The scrollbar will appear only if there are too many tags AND the mouse is hover
 Install with composer:
 
 ```sh
-composer require ecnu-im/sticky-sidenav:"*"
+composer require ecnu-im/sticky-sidenav
 ```
 
 ## Updating
 
 ```sh
-composer update ecnu-im/sticky-sidenav:"*"
+composer update ecnu-im/sticky-sidenav
 php flarum migrate
 php flarum cache:clear
 ```
@@ -33,4 +33,4 @@ php flarum cache:clear
 ## Links
 
 - [Packagist](https://packagist.org/packages/ecnu-im/sticky-sidenav)
-- [GitHub](https://github.com/ecnu-im/sticky-sidenav)
+- [GitHub](https://github.com/ECNU-Forum/sticky-sidenav)
