@@ -1,0 +1,42 @@
+@media (min-width: 992px) {
+    .sideNav>ul {
+        height: 100%;
+        position: sticky;
+    }
+
+    .sideNav>ul>.item-nav {
+        position: sticky;
+        top: 70px;
+        max-height: 90vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        /* For iOS */
+        cursor: pointer;
+        /* For Firefox */
+        scrollbar-width: thin;
+
+        &:hover {
+            overflow-y: auto;
+        }
+    }
+
+    .App {
+        overflow-x: visible;
+    }
+}
+
+.hotDiscussions-widget {
+    position: sticky;
+    top: 70px;
+    max-height: 90vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #e0e0e0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #9e9e9e;
+    border-radius: 5px;
+}
