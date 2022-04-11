@@ -34,3 +34,4 @@ php flarum cache:clear
 
 - [Packagist](https://packagist.org/packages/ecnu-im/sticky-sidenav)
 - [GitHub](https://github.com/ECNU-Forum/sticky-sidenav)
+- [Discuss](https://discuss.flarum.org/d/30579-sticky-sidenav)
