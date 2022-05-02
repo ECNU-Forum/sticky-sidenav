@@ -1,13 +1,12 @@
 @media (min-width: 992px) {
-    .sideNav>ul {
-        height: 100%;
+    :not(.TagsPage-nav).sideNav,
+    :not(.TagsPage-nav).sideNav>ul {
         position: sticky;
+        top: 70px;
     }
 
     .sideNav>ul>.item-nav {
-        position: sticky;
-        top: 70px;
-        max-height: 90vh;
+        max-height: 80vh;
         overflow-x: hidden;
         overflow-y: hidden;
         /* For iOS */
